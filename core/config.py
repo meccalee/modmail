@@ -7,8 +7,8 @@ class ConfigManager:
     """Class that manages a cached configuration"""
 
     allowed_to_change_in_command = {
-        'status', 'log_channel_id', 'mention', 'disable_autoupdates', 'prefix',
-        'main_category_id', 'sent_emoji', 'blocked_emoji', 'thread_creation_response'
+        'activity_message', 'activity_type', 'log_channel_id', 'mention', 'disable_autoupdates', 'prefix',
+        'main_category_id', 'sent_emoji', 'blocked_emoji', 'thread_creation_response', 'twitch_url'
         }
     
     internal_keys = {
